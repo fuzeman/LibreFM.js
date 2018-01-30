@@ -86,7 +86,11 @@ export default class HttpClient {
         // Send request
         return fetch(this._baseUrl, {
             method: 'POST',
-            body: QueryString.encode(options.params)
+            body: QueryString.encode(options.params),
+
+            headers: new Headers({
+                'Content-Type': 'application/x-www-form-urlencoded'
+            })
         }).then(function(response) {
             // TODO check status code
             return response.json();

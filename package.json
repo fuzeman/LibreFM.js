@@ -1,0 +1,47 @@
+{
+  "name": "@fuzeman/librefm",
+  "version": "1.0.0-alpha.1",
+  "description": "Javascript API wrapper for Libre.fm",
+  "homepage": "https://github.com/fuzeman/librefm.js",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "author": "Dean Gardiner",
+  "bugs": {
+    "url": "https://github.com/fuzeman/librefm.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuzeman/librefm.js.git"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.6",
+    "lodash-amd": "^4.16.2",
+    "querystring": "^0.2.0",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.0-beta.32",
+    "@babel/preset-env": "7.0.0-beta.32",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "del": "^2.2.2",
+    "eslint": "^3.7.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "merge": "^1.2.0",
+    "webpack": "2.6.0",
+    "yargs": "3.32.0"
+  },
+  "scripts": {
+    "build": "gulp build"
+  }
+}
